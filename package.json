@@ -1,0 +1,33 @@
+{
+    "name": "datez.js",
+    "version": "1.0.0",
+    "description": "a datetime format library",
+    "author": "zzwanfeng",
+    "license": "MIT",
+    "keywords": [
+        "datetime",
+        "format"
+    ],
+    "main": "dist/datez.min.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zzwanfeng"
+    },
+    "bugs": {
+        "url": "https://github.com/zzwanfeng/datez/issues"
+    },
+    "devDependencies": {
+        "@rollup/plugin-terser": "^0.4.1",
+        "gulp": "^4.0.2",
+        "rollup": "^3.20.2",
+        "tape": "^5.6.3"
+    },
+    "scripts": {
+        "test": "node test/index.js",
+        "build": "gulp && npm run test"
+    },
+    "homepage": "https://github.com/zzwanfeng/datez",
+    "directories": {
+        "test": "test"
+    }
+}
